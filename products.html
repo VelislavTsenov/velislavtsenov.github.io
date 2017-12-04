@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Products </title>
+	<html lang="en-US">
+	<link rel="stylesheet" type="text/css" href="products_style.css">
+	<meta charset = "utf-8"> 
+	<script type="text/javascript" src = "script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+</head>
+<body>
+	<div class = "main_wrapper">
+		<div class = "header">
+		<a href = "index.html">	<div id = "logo"> </div> </a>
+			<div id = "vertical_line"> </div> 
+			<div id = "vertical_line"> </div> 
+			<div id = "search_bar">
+					<form>
+                        <input type="text" name="search" placeholder="Search?">
+                        <input type="submit" value="Search" id = "button">
+                   </form>
+
+                <div class = "overall_bill">
+					<span id = "money"> $0.00 </span> 
+					<p id = "bill"> Current Bill: </p>
+				</div>
+			</div>
+		</div>
+
+		<div class = "content_wrapper">
+			<div id = "slideshow">
+				<img id="back_button" src = "images//back_arrow.png" onmousedown = "previousSlideshowPicture()" onmouseover = "changeColorBackward()" onmouseleave = "changeToNormalBackward()">
+				<img id = "forward_button" src="images//forward_arrow.png" onmousedown = "nextSlideshowPicture()" onmouseover = "changeColorForward()" onmouseleave = "changeToNormalForward()">
+				<img id="back_button_light" src = "images//back_arrow_light.png">
+				<img id = "forward_button_light" src="images//forward_arrow_light.png">
+			</div>
+			<div id = "separator"> </div>
+			<p id = "intro_description"> 
+				<span id = "title"> Fragrances <br> </span>
+				<span id = "subtitle"> Here you can find a wide range of products that will satisfy all your needs. </span>
+			</p>
+			<div class = "products_table"> 
+				<table cellspacing="50"> 
+					<tr>
+						<th> <div id = "season_spring"> <h1> For the <br> <span id = "spring">  Spring  </span></h1> </div>
+							<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+							<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+							<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+							<th> <div id = "table_item_last"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+						</tr>
+
+						<tr> 
+							<th> <div id = "season_summer"> <h1> For the <br> <span id = "summer"> Summer </span> </h1> </div>
+								<th> <div id = "table_item_first"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+								<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+								<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+								<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+							</tr>
+							<tr> 
+								<th> <div id = "season_autumn"> <h1> For the <br><span id = "autumn">  Autumn </span> </h1> </div>
+									<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+									<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+									<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+									<th> <div id = "table_item_last"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+								</tr>
+
+								<tr> 
+									<th> <div id = "season_winter"> <h1> For the <br><span id = "winter">  Winter </span></h1> </div>
+										<th> <div id = "table_item_first"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+										<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+										<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+										<th> <div id = "table_item"> <img src="images//ysl.jpg"> <h1> Yves Saint Laurent</h1> <h3> La nuit de L'Homme</h3><h2> $24.5 </h2> <button id = "add" onmousedown="addAmount()"> Add to cart </button></div> </th>
+									</tr>
+								</table>
+							</div>
+							<a href = "contacts.html"> <button id = "checkout"> Checkout </button></a>
+							<div class = "footer"> 
+								<div id = "copy"> 
+									<p> Velislav Tsenov <br> All rights reserved &copy </p>
+								</div>
+								<div id = "social">
+									<a href = "https://github.com/velislavts" target="_blank"> <img id = "github" src="images//github-icon.png" > </a>
+									<a href = "https://facebook.com/velislavts" target="_blank"><img id = "facebook" src="images//facebook-icon.png"> </a>
+									<a href = "https://instagram.com/velislavts" target="_blank"><img id = "instagram" src="images//instagram-icon.png"> </a>
+								</div>
+							</div>
+						</div>
+с					</div>
+	</body>
+</html>

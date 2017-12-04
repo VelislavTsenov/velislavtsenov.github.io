@@ -1,0 +1,238 @@
+.main_wrapper {
+	width: 1500px;
+	height: 2650px;
+
+}
+
+body {
+	font-family: 'Satisfy', cursive;
+}
+
+.header {
+	width: 1505px;
+	height: 50px;
+	background-color: black;
+	position: fixed;
+	top:0;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	z-index: 10;
+}
+
+#logo {
+	float:left;
+	width: 300px;
+	height: 110px;
+	position: relative;
+	top: -25px;
+	background-image: url("images//FragMag.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 2;
+	margin-left: 30px;
+}
+
+#vertical_line {
+
+	height: 50px;
+	width: 2px;
+	border-left: 3px solid white;
+	margin-left: 4px;
+	float: left;
+}
+
+#search_bar {
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+#search_button {
+	height: 25.5px;
+}
+input[type=text] {
+    width: 130px;
+    height: 20px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 500px;
+}
+
+.overall_bill {
+	position: relative;
+	top: -30px;
+	left: 90%;
+	font-size: 24px;
+}
+
+#button {
+	height: 26px;
+}
+#money { 
+	float: right;
+	color: white;
+	float: right;
+	margin-left: 20px;
+	margin-top: 4px;
+}
+
+#bill {
+	color: white;
+	float: right;
+	margin-top: 3px;
+	margin-left: 20px;
+}
+
+#separator {
+	width: 1500px;
+	height: 100px;
+}
+
+.content_wrapper {
+	width: 90%;
+	height: 100%;
+	margin-left: 89px;
+}
+table {
+	font-family: 'Open Sans', sans-serif;
+}
+
+table img {
+	width: 150px;
+}
+
+table h1 { 
+	font-size: 1.5em;
+}
+
+table th { 
+	width: 200px;
+ }
+
+[id^=table_item] {
+ 	padding: 5%;
+	border-top: 1px solid darkgray;
+ }
+
+[id^=season] {
+	transform: rotate(-35deg);
+}
+
+#summer, #spring, #autumn, #winter {
+	font-size: 2.5em;
+	position: relative;	
+	top: -17px;
+}
+
+#spring {
+ 	color: rgb(0, 204, 0);
+ 	background-image: 
+}
+
+#summer{
+	color: rgb(255, 204, 102);
+}
+
+#autumn {
+	color: 	rgb(255, 153, 51);
+
+}
+
+#winter {
+	color: rgb(77, 136, 255);
+	
+}
+ #table_item_first {
+ 	border-left: 1px solid black;
+ 	border-top: 1px solid black;
+ }
+ #table_item_last {
+ 	border-right: 1px solid black;
+ 	border-top: 1px solid black;
+ }
+
+#slideshow {
+	width: 1000px;
+	background-color: black;
+	height: 300px;
+	position: relative;
+	top: 5%;
+	left: 15%;
+	margin-bottom: 180px;
+	background-image: url("images//img_nature_wide.jpg");
+	border: 2px solid black;
+
+}
+#back_button, #forward_button {
+	width: 50px;
+	height: 50px;
+	display: inline;
+	position: relative;
+	z-index: 2;
+	top: 105%;
+	left: 43%;
+}
+
+#back_button_light, #forward_button_light {
+	width: 50px;
+	height: 50px;
+	display: inline;
+	position: relative;
+	z-index: 1;
+	opacity: 1;
+	top: 105%;
+	left: 32.32%;
+}
+
+#intro_description {
+	width: 100%;
+	height: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+#title {
+	font-size: 52px;
+	font-family: 'Satifsy', cursive;
+	margin-left: 2%;
+}
+
+#subtitle { 
+	font-size: 32px;
+	font-family: 'Satifsy', cursive;
+	margin-left: 2%;
+}
+
+ .footer {
+ 	width: 1300px;
+ 	height: 100px;
+ 	position: relative;
+ 	left: 2%;
+ 	background-color: rgba(0,0,0,0.8);
+ }
+
+ #checkout {
+ 	position: relative;
+ 	left: 50%;
+ 	background-color: rgb(77, 136, 255);
+ }
+
+#copy { 
+ 	width: 300px;
+ 	height: 25px;
+ 	position: relative;
+ 	left: 40%;
+ 	text-align: center;
+ 	font-family: 'Satisfy', cursive;
+ 	color: white;
+ 	top: 30%;
+  }
+
+  #github, #facebook, #instagram {
+  	width: 3%;
+  	float: left;
+  	margin-left: 2%;
+  	margin-top: 1%;
+  }

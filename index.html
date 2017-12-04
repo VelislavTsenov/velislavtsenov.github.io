@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset = "utf-8"> 
+	<title>
+		FragMag
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index_style.css"> 
+	<script type="text/javascript" src = "script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+</head>
+<body onload="onLoad()">
+	<div class = "wrapper">
+	<div class = "header"> 
+		<ul id = "menu">	
+			<a href = "products.html" target= "_blank"> <li> Products </li> </a>
+			
+			<a href = "contacts.html" target= "_blank"> <li> Contacts </li> </a>
+		</ul>
+	</div>
+	<div id = "separator"> </div>
+	<div class = "video_wrapper"> 
+	
+	</div>
+		<video id = "commercial" src="images//Coco.mp4" type = "video/mp4" autoplay muted width= "1500">  </video>
+	<div class = "logo_wrapper"> 
+		<a href = "index.html"> <img alt = "index_logo" id = "logo" src="images//FragMag.png"> </a>
+		<h2 id = "moto"> The fragrances' heaven </h2>
+	</div>
+	<div id = "separator_two"> </div>
+	<div class = "seasons_menu">
+			<h2 id = "picker"> Pick a season </h2>
+			<div id = "shadow" > 
+			</div>
+			<div> 
+				<a href = "products.html#spring"> <img alt = "spring" src="images//spring_resized.jpg" onmouseover="showSpring()" onmouseleave="hideSpring()"> </a>
+			</div>
+			<div> 
+				 <a href = "products.html#spring"> <img alt = "summer" src="images//summer_resized.jpg" onmouseover="showSummer()" onmouseout="hideSummer()"> </a>
+			</div>
+			<div>
+			 	<a href = "products.html#summer"> <img alt = "autumn" src="images//autumn_resized.jpg" onmouseover="showAutumn()" onmouseout="hideAutumn()"></a>
+			</div>
+			<div> 
+				<a href = "products.html#autumn"> 	<img alt = "winter" src="images//winter_resized.jpg" onmouseover="showWinter()" onmouseout="hideWinter()"></a>
+			</div> 
+			<div class = "season_description"> 
+				<h1 id = "spring"> Spring </h1>
+				<h1 id = "summer"> Summer </h1>
+				<h1 id = "autumn"> Autumn </h1>
+				<h1 id = "winter"> Winter </h1>
+			</div>
+		</div>
+
+	<div id = "separator_three"> </div>
+		
+	<div class = "customers_feedback"> 
+			<div class = "feeback_container">
+				<div id="circle_image"> </div>
+				<p id = "feedback"> Fast response, kind personnel and great items list. I will definitely be ordering soon again.</p>
+				<p id = "customer_name"> Roberta Tihomirova </p>
+
+				<img alt = "front" id="back_button" src = "images//back_arrow.png" onmousedown = "previousTestemonial()" onmouseover = "changeColorBackward()" onmouseleave = "changeToNormalBackward()">
+				<img alt = "front" id = "forward_button" src="images//forward_arrow.png" onmousedown = "nextTestemonial()" onmouseover = "changeColorForward()" onmouseleave = "changeToNormalForward()">
+				
+				<img alt = "back" id="back_button_light" src = "images//back_arrow_light.png">
+				<img alt = "back" id = "forward_button_light" src="images//forward_arrow_light.png">
+		 	</div>
+	</div>
+	<div id = "separator_three"> </div>
+	<div id = "thumbnail"> </div>
+	<div class = "newest_release"> 
+			<p id = "announcement"> The <br> newest <br> release	</p>
+			<p id = "description">
+				 Florence  is announced as a modern chypre-ambery scent with citruses, tangy-fruity notes and floral tones. Fruits and citruses open the composition symbolizing life and energy, and continue in the heart blending with a "radiant" flower bouquet and an "exotic" touch of hibiscus seed. The base introduces a "luxurious chypre" signature with a combination of patchouli, amber and musk. The perfume is developed by Marie Salamagne.
+			</p>
+			<img alt = "cavali" id = "perfume" src="images/cavali.jpg">
+	</div>
+	<div id = "thumbnail"> </div>
+		<div id = "separator_four"> </div>
+	<div class = "owner_information"> 
+		<div class = "owner_container">
+			<img alt = "image" id= "owner_img" src="images//owner.png">
+			<div id = "vertical_line"> </div> 
+			<div id = "vertical_line_two"> </div>
+
+		 </div>
+
+			<p id = "owner_description"> 
+					<span id = "comma"> " </span> Velislav Tsenov attended medical school before deciding he wanted to be a perfumer. He graduated from the ISIPCA perfumery school, and then trained at Charabot. He has been with Firmenich since 2001. In 2009 he opened his fragrance shop - FragMag.<span id = "comma"> " </span>
+
+
+			</p>
+	</div>
+		<div id = "separator_four"> </div>
+	<div class = "footer"> 
+		<div id = "copy"> 
+			<p> Velislav Tsenov <br> All rights reserved &copy </p>
+		</div>
+		<div id = "social">
+					<a href = "https://github.com/velislavts" target="_blank"> <img alt = "image" id = "github" src="images//github-icon.png" > </a>
+					<a href = "https://facebook.com/velislavts" target="_blank"><img alt = "image" id = "facebook" src="images//facebook-icon.png"> </a>
+					<a href = "https://instagram.com/velislavts" target="_blank"><img alt = "image" id = "instagram" src="images//instagram-icon.png"> </a>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

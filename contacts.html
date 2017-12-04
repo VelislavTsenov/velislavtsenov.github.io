@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contacts </title>
+	<html lang="en-US">
+	<meta charset = "utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="contacts_style.css">
+	<script type="text/javascript" src = "script.js"></script>
+</head> 
+<body onload = "displaySum()">
+	<div class = "main_wrapper">
+		<div class = "header">
+			<a href = "index.html"> <div id = "logo"> </div> </a>
+			<div id = "vertical_line"> </div> 
+			<div id = "vertical_line"> </div> 
+		</div>
+		<div id = "separator"> </div>
+		<div class = "menu"> 
+			<a href= "index.html"> <p id = "home"> Home </p> </a>
+			<a href= "products.html"> <p id = "products"> Products </p> </a>
+		</div> 
+		<div id = "separator"> </div>
+		<div class = "moto"> 
+			<p id = "moto_text"> We guarantee a response in less than 12 hours on working days! </p>
+		</div>
+		<div class = "ad"> </div>
+		<hr> 
+		<hr>
+		<div id = "contact_us"> 
+			<p> Contact us or complete your order: </p> 
+			<p id = "final"> Final sum:  <span id = "final_sum"> 	</span> </p> 
+		</div>
+
+		<div class = "contacts_wrapper"> 
+			<div class = "container"> 
+
+				
+				<div class = "contact_form"> 
+					<div id = "contact_information"> 
+						<p>  
+							<span id = "where"> Where to find us: </span>
+							<br> 
+							ul. "Svoboda Bachvarova"
+							2700 Skaptopara, Blagoevgrad
+							<br> 
+							Or give us a call:
+							<br> Mobile phone:<br> (+359) 888 885 889
+							<br> FAX: <br> +4126131 
+							<br> Stationary phone: <br>(02) 412 132
+						</p>
+					</div>
+					<div id = "email"> 
+						First Name:  <input type="text" name="name" placeholder="Enter your first name"> <br>
+						Last Name:  <input type="text" name="second_name" placeholder="Enter your last name"> <br>
+						Email: <input id = "email_form" type = "text" placeholder="Enter your email" required> <br>
+						Phone: <input type = "number" placeholder="Enter your Phone"> <br>
+						City: <input type = "text" placeholder="Enter your City"><br>
+						ZIP: <input type = "number" placeholder="Enter your ZIP code">
+						<br>
+						<input id = "message_form" type = "text" placeholder="Tell us what you think">
+						<br>
+						<button id = "submit_email" action ="mailto:vlt170@aubg.edu" Subject=Hello%20again> Order </button>
+					</div>
+					<div id = "map"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2964.45183790484!2d23.09399573549682!3d42.01203848781648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14aaf5ffee3f3de1%3A0x85e25252098ad9ee!2sul.+%22Svoboda+Bachvarova%22%2C+2700+Skaptopara%2C+Blagoevgrad!5e0!3m2!1sen!2sbg!4v1512315241144" width="400" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></iframe> </div>
+				</div>
+			</div>
+		</div>
+		<div class = "footer"> 
+				<div id = "copy"> 
+					<p> Velislav Tsenov <br> All rights reserved &copy </p>
+				</div>
+				<div id = "social">
+					<a href = "https://github.com/velislavts" target="_blank"> <img id = "github" src="images//github-icon.png" > </a>
+					<a href = "https://facebook.com/velislavts" target="_blank"><img id = "facebook" src="images//facebook-icon.png"> </a>
+					<a href = "https://instagram.com/velislavts" target="_blank"><img id = "instagram" src="images//instagram-icon.png"> </a>
+				</div>
+			</div>
+	</div>
+</div>
+</body>
+</html>
