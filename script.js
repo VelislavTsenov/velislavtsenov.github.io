@@ -153,3 +153,7 @@ function addAmount() {
 function displaySum() {
 	document.getElementById("final_bill").innerHTML = "$" + this.amount;
 }
+
+function refreshPage() {
+	 window.location.reload();
+}
