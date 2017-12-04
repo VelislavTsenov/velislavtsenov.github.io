@@ -113,8 +113,11 @@ table th {
 
 [id^=table_item] {
  	padding: 5%;
+ 	width: 200px;
+ 	height: 370px;
 	border-top: 1px solid darkgray;
  }
+
 
 [id^=season] {
 	transform: rotate(-35deg);
