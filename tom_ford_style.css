@@ -1,0 +1,286 @@
+
+.main_wrapper {
+	width: 100%;
+	height: 950px;
+}
+.header {
+	width: 1505px;
+	height: 50px;
+	background-color: black;
+	position: fixed;
+	top:0;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	z-index: 10;
+}
+
+#logo {
+	float:left;
+	width: 300px;
+	height: 110px;
+	position: relative;
+	top: -25px;
+	background-image: url("images//FragMag.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	z-index: 2;
+	margin-left: 30px;
+}
+
+li {
+	position: relative;
+	margin-top: 30px;
+	font-size: 30px;
+	display: inline;
+	padding-right: 20px;
+}
+
+.item {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	top: 100px;
+}
+
+.slideshow {
+	width: 800px;
+	height: 600px;
+	float: left;
+}
+
+#photo {
+	float: top;
+	width: 600px;
+	height: 400px;
+	position: relative;
+	top: 20px;
+	left: 100px;
+}
+
+#photos_vision {
+	width: 600px;
+	height: 160px;	
+	float: bottom;
+	position: relative;
+	bottom: 10px;
+	left: 100px;
+}
+
+#title {
+	width: 500px;
+	height: 75px;
+	background-color: rgb(55, 62, 81);
+	float: top;
+	position: relative;
+	top: -20px;
+	left: 50px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#description {
+	width: 500px;
+	height: 475px;
+	background: rgba(136, 155, 201, 0.3);
+	float: bottom;
+	position: relative;
+	top:-38px;
+	left: 50px;
+}
+
+.item_description {
+	width: 600px;
+	height: 600px;
+	float: right;
+	position: relative;
+	right: 50px;
+}
+table{
+	margin-top: 40px;
+}
+
+th {
+	width: 125px;
+	height: 110px;
+}
+
+#photo {
+
+	background-image: url("images//tf1.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#pic_1 {
+	background-image: url("images//tf1.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+#pic_2 {
+	background-image: url("images//tf2.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#pic_3 {
+	background-image: url("images//tf3.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#pic_4 {
+	background-image: url("images//tf4.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#pic_5 {
+	background-image: url("images//tf5.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#title {
+	text-align: center;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 23px;
+}
+
+#model {
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Satisfy', cursive;
+}
+
+#description {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+#description p{ 
+padding-top: 13px;
+padding-left: 6px;
+}
+
+.offer {
+	width: 600px;
+	height: 100px;
+	background-color: rgb(55, 62, 81);
+	margin-top: 120px;
+	margin-left: 75px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+#ad {
+	color: white;
+	font-size: 32px;
+	font-family: 'Satisfy', cursive;
+	position: relative;
+	transform: rotate(-35deg);
+	width: 120px;
+	left: 20px;
+	top: -6px;
+}
+
+
+
+
+#vertical_line {
+
+	height: 128px;
+	width: 2px;
+	border-left: 3px solid white;
+	float: right;
+	position: relative;
+	top: -90px;
+}
+
+
+#vertical_line_two{
+
+	height: 128px;
+	width: 2px;
+	border-left: 3px solid white;
+	float: right;
+	position: relative;
+	top: -250px;
+	left: 300px;
+}
+
+#step_one {
+	width: 170px;
+	height: 100px;
+	position: relative;
+	top: -110px;
+	left: 230px;
+	color: white;
+	font-size: 24px;
+	font-family: 'Satisfy', cursive;
+}
+
+#step_one select {
+	margin-left: 15px;
+}
+
+#step_two {
+	width: 350px;
+	color: white;
+	font-family: 'Satisfy', cursive;
+	position: relative;
+	top: 55px;
+	left: 10px;
+	font-size: 24px;
+}
+
+
+#checkout {
+	transform: rotate(-90deg);
+	width: 100px;
+	height: 50px;
+	position: relative;
+	top: 15.8px;
+	left: 150px;
+	background-color: rgb(55, 62, 81);
+	border: 1px solid grey;
+	font-family: 'Satisfy', cursive;
+	color: white;
+	font-size: 32px;
+}
+
+
+ .footer {
+ 	width: 1300px;
+ 	height: 100px;
+ 	position: relative;
+ 	left: 2%;
+ 	background-color: rgb(0,0,0);
+ }
+
+#copy { 
+ 	width: 300px;
+ 	height: 25px;
+ 	position: relative;
+ 	left: 45%;
+ 	text-align: center;
+ 	font-family: 'Satisfy', cursive;
+ 	color: white;
+ 	top: 23%;
+  }
+
+  #github, #facebook, #instagram {
+  	width: 3%;
+  	float: left;
+  	margin-left: 2%;
+  	margin-top: 1%;
+  }

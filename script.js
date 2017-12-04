@@ -62,6 +62,10 @@ function nextTestemonial() {
 	}
 }
 
+function changeSlideshowPicture() {
+	document.getElementById("slideshow").style.backgroundImage ="url('images//perf.jpeg')";
+}
+
 function previousTestemonial() { 
 	console.log("Click Counter: " + clickCounter);
 	
@@ -128,8 +132,8 @@ function nextSlideshowPicture() {
 	if(pictureCounter >= 0 && pictureCounter < 2) {
 		pictureCounter++;
 		switch(pictureCounter) {
-			case 1: document.getElementById("slideshow").style.backgroundImage = "url('images//img_mountains_wide.jpg')";break;
-			case 2: document.getElementById("slideshow").style.backgroundImage = "url('images//img_fjords_wide.jpg')"; break;
+			case 1: document.getElementById("slideshow").style.backgroundImage = "url('images//garden-11.jpeg')";break;
+			case 2: document.getElementById("slideshow").style.backgroundImage = "url('images//trees.jpeg')"; break;
 		}
 	}
 }
@@ -139,8 +143,8 @@ function previousSlideshowPicture() {
 	if(pictureCounter > 0 && pictureCounter <= 2) {
 		pictureCounter--;
 		switch(pictureCounter) {
-			case 0: document.getElementById("slideshow").style.backgroundImage = "url('images//img_nature_wide.jpg')";break;
-			case 1: document.getElementById("slideshow").style.backgroundImage = "url('images//img_mountains_wide.jpg')"; break;
+			case 0: document.getElementById("slideshow").style.backgroundImage = "url('images//perf.jpeg')";break;
+			case 1: document.getElementById("slideshow").style.backgroundImage = "url('images//garden-11.jpeg')"; break;
 		}
 	}
 }
@@ -156,4 +160,14 @@ function displaySum() {
 
 function refreshPage() {
 	 window.location.reload();
+}
+
+function setPrice() {
+	var sizes = document.getElementById("size");
+	var strUser = sizes.options[sizes.selectedIndex].value;
+	document.getElementById("price").innerHTML = "$"+strUser;
+	alert("Thank you! You will soon be redirected!");
+	setTimeout(function(){
+		window.open ('contacts.html','_self',false)
+   },2000)
 }
